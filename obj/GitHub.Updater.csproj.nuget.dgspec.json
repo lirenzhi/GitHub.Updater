@@ -1,0 +1,94 @@
+{
+  "format": 1,
+  "restore": {
+    "E:\\Privat-Kevin\\Visual Studio\\Projects\\Visual Studio 2021\\GitHub.Updater\\GitHub.Updater\\GitHub.Updater.csproj": {}
+  },
+  "projects": {
+    "E:\\Privat-Kevin\\Visual Studio\\Projects\\Visual Studio 2021\\GitHub.Updater\\GitHub.Updater\\GitHub.Updater.csproj": {
+      "version": "2021.5.0",
+      "restore": {
+        "projectUniqueName": "E:\\Privat-Kevin\\Visual Studio\\Projects\\Visual Studio 2021\\GitHub.Updater\\GitHub.Updater\\GitHub.Updater.csproj",
+        "projectName": "GitHub.Updater",
+        "projectPath": "E:\\Privat-Kevin\\Visual Studio\\Projects\\Visual Studio 2021\\GitHub.Updater\\GitHub.Updater\\GitHub.Updater.csproj",
+        "packagesPath": "C:\\Users\\VEK\\.nuget\\packages\\",
+        "outputPath": "E:\\Privat-Kevin\\Visual Studio\\Projects\\Visual Studio 2021\\GitHub.Updater\\GitHub.Updater\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\VEK\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            },
+            "PostSharp": {
+              "target": "Package",
+              "version": "[6.9.5, )"
+            },
+            "PostSharp.Patterns.Model": {
+              "target": "Package",
+              "version": "[6.9.5, )"
+            },
+            "RestSharp": {
+              "target": "Package",
+              "version": "[106.11.7, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[3.0.1, 3.0.1]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[3.0.0, 3.0.0]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[3.0.0, 3.0.0]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.203\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
