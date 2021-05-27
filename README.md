@@ -30,7 +30,12 @@ await instance.Update();
 var instance = GitHub.Updater.Client.GetInstance();
     
 // create dependency from given repository
-var RepoDependency = new GitHub.Updater.Dependency.RepositoryDependency() { RepositoryUsername = "cfHxqA", RepositoryName = "GitHub.Updater", DependencyFile = "Example/Dependencies", Environment = new string[] { "Dependencies" } };
+var RepoDependency = new GitHub.Updater.Dependency.RepositoryDependency { 
+  RepositoryUsername = "cfHxqA",           // github-username
+  RepositoryName = "GitHub.Updater",       // github-repository-name
+  DependencyFile = "Example/Dependencies", // declare dependency-filename (eg. on github-repository 'Dependencies.json')
+  Environment = new[] { "Dependencies" }   // declare environment
+};
           
 // apply repository dependencies
 instance.AddDependency(RepoDependency);
